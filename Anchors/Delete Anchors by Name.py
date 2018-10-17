@@ -1,8 +1,25 @@
-#MenuTitle: Anchors | Remove Anchors by name
+#MenuTitle: Anchors | Remove Anchors by Name
 # -*- coding: utf-8 -*-
 __doc__="""
-Remove Anchors by name
+Remove Anchors by Name
 """
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+#	Version: 0.1
+#
+#	>> Daniel Grumer
+#	>> www.danielgrumer.com <<
+#
+#	_NOTES:
+#		- 
+#
+#	_TODO:
+#		- interface. supposed to be super easy.
+#
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~
 
 import GlyphsApp
 

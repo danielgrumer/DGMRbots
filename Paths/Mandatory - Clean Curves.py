@@ -1,5 +1,25 @@
 #MenuTitle: Mandatory | Remove all BCP Points
 # -*- coding: utf-8 -*-
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+#	Version: 0.1
+#
+#	>> Daniel Grumer
+#	>> www.danielgrumer.com <<
+#
+#	_NOTES:
+#		- leave only straight lines. 
+#
+#	_TODO:
+#		- make it work on several layers at a time
+#
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
 __doc__="""
 Delete all the curves! used for Mandatory
 """
@@ -56,51 +76,3 @@ for thisGlyph in selectedGlyphs:
 	thisGlyph.endUndo()
 
 Font.enableUpdateInterface()
-
-
-# Set anchors positions 
-# 
-# import GlyphsApp
-# 
-# Font = Glyphs.font
-# selectedGlyphs = [ x.parent for x in Font.selectedLayers ]
-# 
-# TEST = [0]
-# VALUES = [9999, 9999, 9999, 640, 9999, 9999, 9999 ]
-# BASELINE = [-9999, -9999, -9999, 31, -9999, -9999, -9999 ]
-# 
-# def clearOffCurves( thisGlyph ):
-# 	for layer in range(len(TEST)):		
-# 		for path in thisGlyph.layers[layer].paths:
-# 			virtualPath = GSPath()
-# 			for node in path.nodes:
-# 				if node.type == "offcurve":
-# 					print "passed", node
-# 				else:
-# 					virtualPath.nodes.append(node)
-# 			print virtualPath
-# 			virtualPath.closed = True
-# 			
-# 			thisGlyph.layers[layer].removePath_( path )
-# 			thisGlyph.layers[layer].paths.append( virtualPath )
-# 
-# 					
-# 									
-# def adjust( thisGlyph ):
-# 	for layer in range(len(thisGlyph.layers)):		
-# 		for path in thisGlyph.layers[layer].paths:
-# 			for node in path.nodes:
-# 				if node.y > VALUES[layer]:
-# 					node.y = 666
-# 				if node.y < BASELINE[layer]:
-# 					node.y = 0
-# 					
-# 
-# 
-# Font.disableUpdateInterface()
-# for thisGlyph in selectedGlyphs:
-# 	clearOffCurves( thisGlyph )
-# 	adjust( thisGlyph )
-# Font.enableUpdateInterface()
-# 
-# print "I'm done"

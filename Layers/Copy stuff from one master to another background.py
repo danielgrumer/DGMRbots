@@ -1,6 +1,25 @@
 #MenuTitle: Copy Stuff | From one's master to another's background
 # -*- coding: utf-8 -*-
 
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+#	Version: 0.1
+#
+#	>> Daniel Grumer
+#	>> www.danielgrumer.com <<
+#
+#	_NOTES:
+#		- 
+#
+#	_TODO:
+#		- make one good Copier script
+#		- interface. select input layer, output layer(s), checkboxes, and support background too.
+#
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 import GlyphsApp
 
 Font = Glyphs.font

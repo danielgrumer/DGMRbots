@@ -16,7 +16,7 @@ Smooth node to vertical segment
 #		- Works with multiple nodes, and multiple path
 #
 #	_TODO:
-#		- Do that for the other master as well?
+#		- Do that for the other masters as well?
 #
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

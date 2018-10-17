@@ -5,6 +5,27 @@ __doc__="""
 Make sure global guidelines divisible by 12
 """
 
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+#	Version: 0.1
+#
+#	>> Daniel Grumer
+#	>> www.danielgrumer.com <<
+#
+#	_NOTES:
+#		- After creating the Small Caps glyph - it adds the mother glyph as a component.
+#
+#	_TODO:
+#		- Make a GuideMaker out of it.
+#		- choose label to each guide
+#		- round nearby guides?
+#		- Divisionable by XX as option 
+#
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 import GlyphsApp
 
 Font = Glyphs.font

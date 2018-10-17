@@ -1,7 +1,23 @@
 #MenuTitle: Zico Display | Update the 3rd master to match the 4th
 # -*- coding: utf-8 -*-
 
-# A script that updates the 3rd master according to the 4th
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+#	Version: 0.1
+#
+#	>> Daniel Grumer
+#	>> www.danielgrumer.com <<
+#
+#	_NOTES:
+#		- 
+#
+#	_TODO:
+#		- make one good Copier script
+#		- interface. select input layer, output layer(s), checkboxes, and support background too.
+#
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 import GlyphsApp
 

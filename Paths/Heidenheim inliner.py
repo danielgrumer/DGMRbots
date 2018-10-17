@@ -3,12 +3,32 @@
 
 # A script that creates the inlines for Heidenheim
 
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+#	Version: 0.1
+#
+#	>> Daniel Grumer
+#	>> www.danielgrumer.com <<
+#
+#	_NOTES:
+#		- A script that creats the inlines for Heidenheim Display. 
+#
+#	_TODO:
+#		- continue this script to (a) apply the filter, and (b) split the offset path results
+#		- interface. choose number of line. 
+#		- make it work on the active layer.
+#
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 import GlyphsApp
 
 Font = Glyphs.font
 selectedGlyphs = [ x.parent for x in Font.selectedLayers ]
 import copy
-
 
 LAYER = 1
 HOWMANYLINES = 1  

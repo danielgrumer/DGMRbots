@@ -4,6 +4,24 @@ __doc__="""
 Make sure anchors are consistent
 """
 
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+#	Version: 0.1
+#
+#	>> Daniel Grumer
+#	>> www.danielgrumer.com <<
+#
+#	_NOTES:
+#		- 
+#
+#	_TODO:
+#		- use the EXAMPLE from the selected layer
+#
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 Font = Glyphs.font
 selectedGlyphs = [ x.parent for x in Font.selectedLayers ]
 
@@ -36,8 +54,6 @@ def matchAnchors(thisGlyph, layer):
 			newAnchor.position = thisGlyph.layers[EXAMPLE].anchors[nom].position
  			thisGlyph.layers[layer].addAnchor_( newAnchor )
  			print "Added", nom, "to", thisGlyph.name, "Master Number", layer+1
-
- 			
 
 def collectNames(thisGlyph, layer):
 	mylist = []

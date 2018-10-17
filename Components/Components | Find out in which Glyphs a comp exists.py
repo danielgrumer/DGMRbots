@@ -4,6 +4,26 @@ __doc__="""
 Find out in which Glyphs a comp exists
 """
 
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+#	Version: 0.1
+#
+#	>> Daniel Grumer
+#	>> www.danielgrumer.com <<
+#
+#	_NOTES:
+#		- made for an Arabic project, good for checking if 
+#
+#	_TODO:
+#		- Maybe it can be replaced with a script called "Remove Unused Components"
+#		- interface
+#		- multi layer support
+#
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 Font = Glyphs.font
 selectedGlyphs = [ x.parent for x in Font.selectedLayers ]
 
@@ -19,7 +39,6 @@ def findComp(thisGlyph):
 
 Font.disableUpdateInterface()		
 for thisGlyph in selectedGlyphs:
-	#print "Processing", thisGlyph.name
 	findComp(thisGlyph)
 
 Font.enableUpdateInterface()

@@ -1,5 +1,6 @@
 #MenuTitle: Smooth node to horizontal segment
 # -*- coding: utf-8 -*-
+
 __doc__="""
 Smooth node to horizontal segment
 """
@@ -13,7 +14,7 @@ Smooth node to horizontal segment
 #	>> www.danielgrumer.com <<
 #
 #	_NOTES:
-#		- A horizontal version of the legendary vertical script...
+#		- A horizontal version of the legendary vertical script... made for Kajag
 #
 #
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

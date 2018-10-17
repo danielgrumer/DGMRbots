@@ -5,6 +5,7 @@ __doc__="""
 Sort Glyphs by Width
 """
 
+
 Font = Glyphs.font
 selectedGlyphs = [ x.parent for x in Font.selectedLayers ]
 

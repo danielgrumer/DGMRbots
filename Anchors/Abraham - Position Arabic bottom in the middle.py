@@ -1,9 +1,25 @@
 #MenuTitle: Araham | Position Bottom Anchor in between two selected nodes
 # -*- coding: utf-8 -*-
 __doc__="""
-Position Bottom Anchors in between two selected nodes
+Position Bottom Anchor in between two selected nodes
 """
 
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+#	Version: 0.1
+#
+#	>> Daniel Grumer
+#	>> www.danielgrumer.com <<
+#
+#	_NOTES:
+#		- 
+#
+#	_TODO:
+#		- Make one good tool for "Position Anchor between two nodes"
+#
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 import math
 
@@ -38,9 +54,6 @@ def process( thisLayer ):
 			      
 		if (len(points) > 0): # then, update the whole thing
 			thisLayer.anchors[ANCHOR].position = NSPoint(myX, myY)
-
-
-	
 					
 for thisLayer in selectedLayers:
 	thisGlyph = thisLayer.parent
