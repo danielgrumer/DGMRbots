@@ -4,7 +4,7 @@
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #
-#	Version: 0.1
+#	Version: 0.2
 #
 #	>> Daniel Grumer
 #	>> www.danielgrumer.com <<
@@ -35,13 +35,19 @@ def process( thisLayer ):
 	DESC = selectedMaster.descender
 	
 	#hack
-	DESC = -277
+	DESC = -250
 	
 	thisLayer.backgroundImage = GSBackgroundImage(IMAGE)
-	thisLayer.RSB = 0
 	
-	thisLayer.backgroundImage.position = NSPoint(0, DESC)
-	
+	thisLayer.backgroundImage.transform = ((
+        1.0, # x scale factor
+        0.0, # x skew factor
+        0.0, # y skew factor
+        1.0, # y scale factor
+        0.0, # x position
+        DESC  # y position
+        ))
+		
 Font.disableUpdateInterface()
 
 for thisLayer in selectedLayers:
